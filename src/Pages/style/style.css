@@ -1,0 +1,46 @@
+.navbar_container {
+    box-shadow: 0px 15px 10px -18px #979494;
+}
+
+.search_input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search_span_tag {
+    display: inline-block;
+    background-color: #fce7f3;
+    border-radius: 20px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    white-space: nowrap;
+}
+
+.search_span_tag:hover {
+    background-color: #ebc3da;
+}
+
+.form_container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(217, 213, 213, 0.75);
+    -webkit-box-shadow: 0px 0px 15px 8px rgba(217, 213, 213, 0.75);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(217, 213, 213, 0.75);
+}
+
+.candidate_form {
+    background-color: #eedec4;
+}
+
+.sidebar_container {
+    background-color: #9ec99b;
+}
